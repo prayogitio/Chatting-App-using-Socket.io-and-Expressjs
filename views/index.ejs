@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chat App</title>
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.js"
+    integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+    <link href="assets/styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+  </head>
+  <body class="container">
+    <h1 class="text-center">Welcome to Chat Room</h1>
+    <div class="col-lg-6 col-lg-offset-3 panel panel-default">
+      <br>
+      <div class="panel panel-default" id="chat-window">
+        <span id="output"></span>
+        <span id="feedback"></span>
+      </div>
+      <input type="text" class="form-control" id="handle" placeholder="Handle" />
+      <input type="text" class="form-control" id="message" placeholder="Message" />
+      <button id="send" class="btn btn-danger">SEND</button>
+      <br>
+    </div>
+    <script src="/assets/chat.js"></script>
+  </body>
+</html>
