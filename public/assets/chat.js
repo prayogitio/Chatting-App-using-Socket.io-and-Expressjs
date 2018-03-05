@@ -1,5 +1,5 @@
 //make connection
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect('https://aqueous-cove-47771.herokuapp.com/');
 
 var message = document.getElementById('message');
 var handle = document.getElementById('handle');
